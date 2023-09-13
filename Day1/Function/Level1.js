@@ -31,14 +31,13 @@ function ConvertCelciusToFahrenheit(oF, oC) {
 // Béo phì : BMI từ 30 trở lên
 //6
 function checkSeason(number) {
-  if (number >= 3 && number <= 5) {
+  if (number >= 1 && number <= 3) {
     return "Mùa Xuân";
-  } else if (number >= 6 && number <= 8) {
+  } else if (number >= 4 && number <= 6) {
     return "Mùa Hè";
-  } else if (number >= 9 && number <= 11) {
+  } else if (number >= 7 && number <= 9) {
     return "Mùa Thu";
   } else {
     return "Mùa Đông";
   }
 }
-
