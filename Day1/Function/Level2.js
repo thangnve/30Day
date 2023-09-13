@@ -89,3 +89,14 @@ function tinh_tong(number) {
   return tong;
 }
 console.log(tinh_tong(1, 5, 1));
+//1
+function userIdGenerator(shit) {
+  var na = "";
+  var list_nu =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  for (let i = 0; i < shit; i++) {
+    na += list_nu.charAt(Math.floor(Math.random() * list_nu.length));
+  }
+  return na;
+}
+console.log(userIdGenerator(7));
