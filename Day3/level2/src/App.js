@@ -4,6 +4,7 @@ import logohtml from "../src/image/html_logo.png";
 import logoreact from "../src/image/react_logo.png";
 import logojs from "../src/image/js_logo.png";
 import React from "react";
+
 function App() {
   return (
     <div className="container-fluid">
