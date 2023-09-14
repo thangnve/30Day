@@ -1,7 +1,7 @@
 body{
-  width: 1400px;
+  width: 1900px;
   display: flex;
- 
+  justify-content: center;
 }
 
 .numbers{
