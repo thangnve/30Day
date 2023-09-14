@@ -3,9 +3,11 @@ import React from "react";
 function Color(props) {
   const bgColor = MiniColor();
   return (
-    <div className="container ">
-      <div style={{ backgroundColor: `${bgColor}` }} className="border p-2 ">
-        <h2 className="text-center">{bgColor}</h2>
+    <div className="mt-4">
+      <div className="container ">
+        <div style={{ backgroundColor: `${bgColor}` }} className="border p-2 ">
+          <h2 className="text-center">{bgColor}</h2>
+        </div>
       </div>
     </div>
   );
